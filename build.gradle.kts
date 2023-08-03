@@ -29,7 +29,8 @@ dependencies {
     implementation("io.micronaut.gcp:micronaut-gcp-logging")
     compileOnly("org.graalvm.nativeimage:svm")
 
-    implementation("io.micronaut:micronaut-validation")
+    annotationProcessor("io.micronaut.validation:micronaut-validation")
+    implementation("io.micronaut.validation:micronaut-validation")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 }
