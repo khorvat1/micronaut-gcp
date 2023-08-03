@@ -58,7 +58,7 @@ tasks {
 graalvmNative.toolchainDetection.set(false)
 micronaut {
     runtime("netty")
-    testRuntime("kotest")
+    testRuntime("kotest5")
     processing {
         incremental(true)
         annotations("hr.khorvat.*")
