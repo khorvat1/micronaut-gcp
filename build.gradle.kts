@@ -27,7 +27,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut.gcp:micronaut-gcp-logging")
-    nativeImageCompileOnly("com.google.cloud:native-image-support")
     compileOnly("org.graalvm.nativeimage:svm")
 
     implementation("io.micronaut:micronaut-validation")
