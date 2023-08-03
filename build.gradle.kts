@@ -33,6 +33,8 @@ dependencies {
     implementation("io.micronaut.validation:micronaut-validation")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
+
+    runtimeOnly("org.yaml:snakeyaml")
 }
 
 application {
